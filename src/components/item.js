@@ -10,7 +10,7 @@ export default function Item({ title, completed, onPress, ...rest }) {
           ...rest
         })
       }
-      className={`item ${completed ? "completed" : ""}`}
+      className={`item ${completed ? "completed" : null }`}
     >
       {title}
     </li>

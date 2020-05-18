@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Lenovo\Motion Control\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Yarn\bin\;C:\Ruby27-x64\bin;C:\Users\Teo\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Teo\AppData\Local\Programs\Python\Python38-32\;C:\Users\Teo\AppData\Roaming\npm;C:\Users\Teo\AppData\Local\atom\bin;C:\Users\Teo\AppData\Local\Microsoft\WindowsApps;C:\Users\Teo\AppData\Local\GitHubDesktop\bin;C:\Users\Teo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Teo\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.10.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.5.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141375:19)
+      at Object.onceWrapper (events.js:422:28)
+      at ClientRequest.emit (events.js:316:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:721:9)
+      at Object.onceWrapper (events.js:422:28)
+      at TLSSocket.emit (events.js:316:20)
+      at TLSSocket.Socket._onTimeout (net.js:479:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "1.0.0",
+    "description": "React example starter project",
+    "keywords": ["react", "starter"],
+    "main": "src/index.js",
+    "dependencies": {
+      "react": "16.12.0",
+      "react-dom": "16.12.0",
+      "react-scripts": "3.0.1"
+    },
+    "devDependencies": {
+      "typescript": "3.8.3"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
